@@ -44,7 +44,7 @@ header {
   color: #BCA760;
 }
 
-/*SOBRE MI*/
+/*--------- SOBRE MI ---------*/
 
 .containerSobreMi {
   display: flex;
@@ -59,12 +59,13 @@ header {
   background-color: #BC6075;
   border-radius: 10px;
   display: flex;           
-  flex-direction: row;     /* texto a la izquierda, imagen a la derecha */
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
   height: 400px;
   padding: 100px;
+  box-shadow: 0 10px 8px rgba(0,0,0,0.1);
 }
 
 .infoMia {
@@ -122,6 +123,7 @@ header {
   margin-right: 5rem;
   padding: 5rem;
   border-radius: 10px;
+  box-shadow: 0 10px 8px rgba(0,0,0,0.1);
 }
 
 .card p {
@@ -169,3 +171,78 @@ header {
 
 /*------------ ESTUDIOS ------------*/
 
+.tituloEstudios {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.estudios {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 10rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.facultad, .colegio {
+  background-color: #BC6075;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px rgba(0,0,0,0.1);
+  width: 320px;
+  height: 380px;
+  padding: 1rem;
+}
+
+.facultad img {
+  width: 200px;
+  height: auto;
+}
+
+.facultad h3 {
+  color: #BCA760;
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+.facultad h6 {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.facultad p {
+  font-size: 15px;
+  margin-top: 1rem;
+  color: #222;
+  font-weight: bold;
+}
+
+.colegio img {
+  width: 200px;
+  height: auto;
+}
+
+.colegio h3 {
+  color: #BCA760;
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+.colegio h6 {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.colegio p {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 1rem;
+  color: #222;
+}
+
+/*---------- FOOTER/CONTACTO -----------*/
