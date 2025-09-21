@@ -67,21 +67,21 @@ header {
   padding: 100px;
 }
 
-.quienSoy h1 {
+.infoMia {
+  flex: 2;
+  max-width: 400px;
+  text-align: left;
+}
+
+.infoMia h1 {
   color: #BCA760;
   margin-bottom: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.quienSoy p {
+.infoMia p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
-}
-
-.infoMia {
-  flex: 2;
-  max-width: 400px;
-  text-align: left;
 }
 
 .selfieMia {
@@ -97,5 +97,55 @@ header {
   border: 5px solid #BCA760;
   border-radius: 10px;
 }
+
+/*------------ PROYECTOS ------------*/
+
+.tituloProyectos h2{
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+
+.proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1;
+  background-color: #BC6075;
+  border: 10px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+.card p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.card h3 {
+  font-size: 2rem;
+  color: #BCA760;
+}
+
+.card h6 {
+  font-size: 1rem;
+}
+
+.card img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: #BCA760 5px solid;
+  border-radius: 10px;
+}
+
+/*------------- TECNOLOGÍAS --------------*/
+
 
 
