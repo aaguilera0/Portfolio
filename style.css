@@ -9,6 +9,10 @@ body {
   background-color: #60a3bc;
 }
 
+section {
+  margin: 6rem 0;
+}
+
 /*-------------- NAV --------------*/
 
 header {
@@ -124,6 +128,7 @@ header {
   padding: 5rem;
   border-radius: 10px;
   box-shadow: 0 10px 8px rgba(0,0,0,0.1);
+  height: 30rem;
 }
 
 .card p {
@@ -200,6 +205,7 @@ header {
 .facultad img {
   width: 200px;
   height: auto;
+  border: #BCA760 solid 5px;
 }
 
 .facultad h3 {
@@ -224,6 +230,7 @@ header {
 .colegio img {
   width: 200px;
   height: auto;
+  border: #BCA760 solid 5px;
 }
 
 .colegio h3 {
@@ -246,3 +253,43 @@ header {
 }
 
 /*---------- FOOTER/CONTACTO -----------*/
+
+.tituloFooter{
+  margin-top: 4rem;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.tituloFooter h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.tituloFooter p{
+
+  font-weight: bold;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #222;
+}
+
+.linkContacto {
+  display: flex;
+  justify-content: center; 
+  gap: 2rem;
+}
+
+.contacto img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
