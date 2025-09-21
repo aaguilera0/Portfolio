@@ -82,6 +82,7 @@ header {
 .infoMia p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
+  margin-top: 15px;
 }
 
 .selfieMia {
@@ -147,5 +148,24 @@ header {
 
 /*------------- TECNOLOGÍAS --------------*/
 
+.tituloLenguajes h2{
+  margin-left: 5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
+.lenguajes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.lenguajes img {
+  margin: 1rem;
+  width: 150px;
+  height: 150px;
+}
+
+/*------------ ESTUDIOS ------------*/
 
